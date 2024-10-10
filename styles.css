@@ -1,0 +1,19 @@
+body{
+    margin:0;
+}
+.container{
+    padding: 1em;
+    background-color: gray;
+    margin-top: 1em;
+}
+.item{
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: move;
+    margin-top: 1em;
+    background-color: white;
+}
+.dragging{
+    opacity: 0.5;
+}
